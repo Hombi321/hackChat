@@ -11,3 +11,87 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.chatPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: bisque;
+  height: 100vh;
+  width: 100vw;
+}
+
+.inputControls{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.inputControls input {
+  background-color: azure;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+}
+ .inputControls button {
+  font-size: 20px;
+ }
+
+.chatMessageBox{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  width: 80%;
+  margin: auto;
+  gap: 10px;
+}
+
+.chatMessageBubble {
+  background-color: burlywood;
+  height: fit-content;
+  border-radius: 35px;
+  padding: 2%;
+}
+
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  height: 100vh;
+  width: 100vw;
+  background-color: bisque;
+}
+
+.loginCard {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 20px;
+  flex-direction: column;
+  background-color: azure;
+  border-radius: 35px;
+  height: 50%;
+  width: 50%;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputField input {
+  height: 25px;
+}
+
+.errorMessage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: large;
+  background-color: rgb(219, 67, 67);
+  height: 50px;
+}
